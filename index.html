@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row and Column Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Table Generator</h1>
+        
+        <div class="hero">
+            <label for="rows">Number of Rows:</label>
+            <input type="number" class="daya" id="rows" min="1" value="1">
+        </div>
+        
+        <div class="hero">
+            <label for="columns">Number of Columns:</label>
+            <input type="number" class="daya" id="columns" min="1" value="1">
+        </div>
+        
+        <button class="btn" onclick="generateTable()">Generate Table</button>
+
+        <div id="tableContainer"></div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
