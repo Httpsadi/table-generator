@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
 }
 .container {
     background-color: white;
@@ -67,6 +67,7 @@ h1:hover{
     margin-top: 20px;
     max-width: 100%;
     overflow-x: auto;
+    overflow-y: auto;
 }
 table {
     width: 100%;
